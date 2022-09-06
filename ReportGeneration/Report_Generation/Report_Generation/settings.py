@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'Report_Generation.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Vriddhi',
-        'USER': 'admin',
-        'PASSWORD': 'ftvyfQ82hQGwoCATmZFJ',
-        'HOST': 'vriddhiprod.cuvwsgd7jiy6.ap-south-1.rds.amazonaws.com',   # Or an IP Address that your DB is hosted on
+        'NAME': 'vriddhi',
+        'USER': 'root',
+        'PASSWORD': 'Newuser@12345',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
