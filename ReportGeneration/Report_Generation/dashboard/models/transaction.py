@@ -15,4 +15,4 @@ class Transaction(models.Model):
 
 
     class Meta():
-        db_table="newdb_transaction"
+        db_table="NewDB_Transaction"

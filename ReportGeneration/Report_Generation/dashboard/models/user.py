@@ -26,4 +26,4 @@ class User(models.Model):
     whatsapp_mobile=models.CharField(max_length=255,db_column="WhatsAppMobile")
 
     class Meta():
-        db_table="newdb_user"
+        db_table="NewDB_User"

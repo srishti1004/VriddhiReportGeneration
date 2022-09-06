@@ -45,6 +45,6 @@ class Account_State(models.Model):
     type_of_update=models.TextField(db_column="TypeOfUpdate")
 
     class Meta():
-        db_table="newdb_account_state"
+        db_table="NewDB_Account_State"
 
 

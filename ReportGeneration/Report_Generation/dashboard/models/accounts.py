@@ -36,4 +36,4 @@ class Account(models.Model):
     vcmType=models.TextField(db_column="VCMType")
 
     class Meta():
-        db_table="newdb_account"
+        db_table="NewDB_Account"
